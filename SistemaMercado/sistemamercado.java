@@ -19,7 +19,9 @@ public class sistemamercado {
 
         @Override
         public String toString() {
-            return "Codigo: " + codigo + ", Nome: " + nome + ", Preco: " + String.format("%.2f", preco);
+            return "Codigo: " + codigo + 
+            ", Nome: " + nome + 
+            ", Preco: " + String.format("%.2f", preco);
         }
     }
 
